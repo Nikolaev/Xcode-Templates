@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+# create and make Templates
+echo "---------------------------"
+echo "Prepare for create template"
+echo "---------------------------"
+echo ""
+
+ln -sfv "$(dirname "$0")/MVVM Templates" $(dirname ~/Library)/Library/Developer/Xcode/Templates
+
+echo ""
+echo "---------------------------"
+
+open "$(dirname ~/Library)/Library/Developer/Xcode/Templates"
