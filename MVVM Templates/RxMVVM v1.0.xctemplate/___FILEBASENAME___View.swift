@@ -23,7 +23,7 @@ class ___VARIABLE_sceneName___View: UIView {
     }
     
     private func configureView() {
-        backgroundColor = UIConfig.shared.colors.grayscale.white
+        
     }
     
     private func addSubviews() {
